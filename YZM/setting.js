@@ -558,7 +558,7 @@ var YZM = {
 		'play': function(url) {
 			$('body').addClass("danmu-off");
 			YZM.dp = new yzmplayer({
-				autoplay: true,
+				autoplay: false,
 				element: document.getElementById('player'),
 				theme: config.color,
 				logo: config.logo,
@@ -578,7 +578,7 @@ var YZM = {
 		'adplay': function(url) {
 			$('body').addClass("danmu-off");
 			YZM.ad = new yzmplayer({
-				autoplay: true,
+				autoplay: false,
 				element: document.getElementById('ADplayer'),
 				theme: config.color,
 				logo: config.logo,
